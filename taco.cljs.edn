@@ -1,0 +1,5 @@
+{:main taco.taco-table
+ :output-to "target/public/main.js"}
+^{:watch-dirs ["src"]
+  :css-dirs ["resources/public"]
+  :auto-testing true}
